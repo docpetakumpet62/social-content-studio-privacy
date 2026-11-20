@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kebijakan privasi Social Content Studio.">
+  <title>Kebijakan Privasi — Social Content Studio</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #202124;
+      background: #f7f6f3;
+    }
+
+    body {
+      box-sizing: border-box;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      line-height: 1.65;
+    }
+
+    main {
+      padding: 36px;
+      border: 1px solid #e6e3dc;
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    h1, h2 { line-height: 1.25; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 32px; font-size: 1.2rem; }
+    a { color: #174ea6; }
+    .updated { color: #5f6368; }
+
+    @media (max-width: 520px) {
+      body { padding: 20px 12px; }
+      main { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kebijakan Privasi — Social Content Studio</h1>
+    <p class="updated">Terakhir diperbarui: 21 November 2026</p>
+
+    <h2>Pengelola</h2>
+    <p>Social Content Studio dikelola oleh Yeezee Teknologi Indonesia. Pertanyaan atau permintaan terkait data dapat dikirim ke <a href="mailto:alghifahrizikri@gmail.com">alghifahrizikri@gmail.com</a>.</p>
+
+    <h2>Data yang diproses</h2>
+    <p>Aplikasi memproses (1) ID dan username akun Instagram Professional serta token akses yang diterima melalui login Meta; dan (2) informasi draf yang Anda masukkan, seperti brand, produk, platform, audiens, isi konten, caption, status alur kerja, dan waktu pembuatan atau perubahan.</p>
+
+    <h2>Tujuan penggunaan</h2>
+    <p>Data akun digunakan untuk menghubungkan akun Instagram dan menampilkan status serta profil akun. Data draf digunakan untuk menyimpan dan meninjau konten di workspace lokal. Fitur publikasi belum tersedia; aplikasi ini tidak mengunggah draf ke Instagram.</p>
+
+    <h2>Penyimpanan dan masa simpan</h2>
+    <p>Token dan draf disimpan sebagai file JSON pada perangkat operator aplikasi. Aplikasi tidak mengenkripsi file tersebut; perlindungan bergantung pada keamanan perangkat dan akses sistem operasi. Token disimpan sampai koneksi diputus atau file lokal dihapus. Draf tetap tersimpan sampai operator menghapus file <code>data/posts.json</code>.</p>
+
+    <h2>Penggunaan layanan pihak ketiga</h2>
+    <p>Login dan permintaan profil akun berkomunikasi dengan Meta/Instagram dan tunduk pada kebijakan privasi Meta. Saat tunnel Cloudflare sementara digunakan untuk callback OAuth, permintaan callback melewati layanan Cloudflare. Halaman kebijakan ini di-host oleh GitHub Pages; GitHub dapat memproses data teknis kunjungan ke halaman tersebut. Aplikasi tidak menjual data atau memakai analitik maupun iklan tertanam.</p>
+
+    <h2>Keamanan dan akses</h2>
+    <p>Ini adalah prototipe lokal satu operator tanpa login aplikasi dan tanpa enkripsi penyimpanan. Saat tunnel publik aktif, siapa pun yang mengetahui alamatnya dapat mencoba mengakses aplikasi. Tunnel sebaiknya dihentikan segera setelah pengujian OAuth selesai. Jangan gunakan aplikasi ini sebagai layanan publik atau produksi.</p>
+
+    <h2 id="penghapusan">Penghapusan dan pilihan Anda</h2>
+    <p>Gunakan <strong>Putuskan akun</strong> untuk menghapus token lokal. Untuk menghapus draf, operator menghapus file <code>data/posts.json</code>. Anda juga dapat mencabut izin aplikasi melalui pengaturan akun Meta. Permintaan bantuan terkait data dapat dikirim ke kontak pengelola di atas.</p>
+  </main>
+</body>
+</html>
